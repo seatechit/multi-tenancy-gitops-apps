@@ -13,7 +13,7 @@ spec:
   project: applications
   source:
     path: apic/environments/single-cluster-cp4i
-    repoURL: https://github.com/seatech_hn/multi-tenancy-gitops-apps.git
+    repoURL: https://github.com/seatechit/multi-tenancy-gitops-apps.git
     targetRevision: master
   syncPolicy:
     automated:

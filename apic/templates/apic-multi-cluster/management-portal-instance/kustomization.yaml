@@ -42,7 +42,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/seatech_hn/multi-tenancy-gitops-services.git
+      value: https://github.com/seatechit/multi-tenancy-gitops-services.git
     - op: add
       path: /spec/source/targetRevision
       value: master
