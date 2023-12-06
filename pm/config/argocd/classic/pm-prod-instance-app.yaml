@@ -14,5 +14,5 @@ spec:
   source:
     path: pm/environments/classic
     repoURL: https://github.com/seatechit/multi-tenancy-gitops-apps.git
-    targetRevision: master
+    targetRevision: seatech-cp4i
   syncPolicy: {}

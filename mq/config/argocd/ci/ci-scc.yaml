@@ -17,7 +17,7 @@ spec:
   source:
     path: mq/environments/ci/scc
     repoURL: https://github.com/seatechit/multi-tenancy-gitops-apps.git
-    targetRevision: master
+    targetRevision: seatech-cp4i
   syncPolicy:
     automated:
       prune: true
