@@ -205,7 +205,7 @@ spec:
         - name: HEAD
           value: $(context.pipeline.name)-$(context.pipelineRun.name)
         - name: BASE
-          value: master
+          value: seatech-cp4i
         - name: TITLE
           value: $(params.github-pr-title)
         - name: BODY
