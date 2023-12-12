@@ -80,7 +80,7 @@ spec:
       image: quay.io/openshift/origin-cli:latest
       script: |
         
-        release_name=$(cat $(results.release-name.path))
+        release_name=$(cat $(results.is-release-name.path))
         echo $release_name
 
         set +e
