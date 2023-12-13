@@ -26,7 +26,7 @@ spec:
             memory: 125Mi
   replicas: 1
   storage:
-    class: ace-dashboard-storage
+    class: integration-storage
     size: 5Gi
     type: persistent-claim
   useCommonServices: true
