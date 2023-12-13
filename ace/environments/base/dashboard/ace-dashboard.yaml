@@ -3,12 +3,31 @@ kind: Dashboard
 metadata:
   name: ace-dashboard
 spec:
+  displayMode: IntegrationRuntimes
   license:
     accept: true
-    license: L-KSBM-C37J2R
+    license: L-SEWB-GH63KR
     use: CloudPakForIntegrationNonProduction
-  useCommonServices: true
-  version: 12.0.1.0-r3
-  storage:
-    type: ephemeral
+  pod:
+    containers:
+      content-server:
+        resources:
+          limits:
+            memory: 512Mi
+          requests:
+            cpu: 50m
+            memory: 50Mi
+      control-ui:
+        resources:
+          limits:
+            memory: 512Mi
+          requests:
+            cpu: 50m
+            memory: 125Mi
   replicas: 1
+  storage:
+    class: ace-dashboard-storage
+    size: 5Gi
+    type: persistent-claim
+  useCommonServices: true
+  version: '12.0'
