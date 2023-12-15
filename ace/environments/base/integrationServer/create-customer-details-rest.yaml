@@ -6,7 +6,7 @@ spec:
   designerFlowsOperationMode: disabled
   license:
     accept: true
-    license: L-APEH-C9NCK6
+    license: L-MJTK-WUU8HE
     use: CloudPakForIntegrationNonProduction
   replicas: 1
   router:
@@ -14,7 +14,7 @@ spec:
   service:
     endpointType: http
   useCommonServices: true
-  version: 12.0.4.0-r2
+  version: 12.0.8.0-r1
   adminServerSecure: true
   pod:
     containers:
