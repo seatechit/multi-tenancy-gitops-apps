@@ -4,4 +4,4 @@ resources:
   - configurations/create_customer_policy.yaml
   - secrets/ibm-entitlement-key-secret.yaml
   - dashboard/ace-dashboard.yaml
-  # - dashboard/ace-dashboard-02.yaml
+  - dashboard/ace-dashboard-02.yaml
