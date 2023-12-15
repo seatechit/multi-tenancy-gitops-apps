@@ -66,7 +66,7 @@ ace_update_git () {
         while IFS= read -r -d '' File; do
             echo "Processing $File"
             sed -i'.bak' -e "s#https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git#${GIT_BASEURL}/${GIT_ORG}/${GIT_GITOPS_APPLICATIONS}#" $File
-            sed -i'.bak' -e "s#targetRevision: master#targetRevision: ${GIT_GITOPS_APPLICATIONS_BRANCH}#" $File
+            sed -i'.bak' -e "s#targetRevision: seatech-cp4i#targetRevision: ${GIT_GITOPS_APPLICATIONS_BRANCH}#" $File
             rm "${File}.bak"
         done
     fi

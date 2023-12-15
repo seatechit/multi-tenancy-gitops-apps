@@ -30,7 +30,7 @@ spec:
       description: "Body of pull request"
     - name: github-pr-token-secret-name
       type: string
-      default: cicd-acme
+      default: seatech-bot
       description: "Personal access token for CICD bot user"
 
   workspaces:
@@ -160,7 +160,7 @@ spec:
         - name: HEAD
           value: $(context.pipeline.name)-$(context.pipelineRun.name)
         - name: BASE
-          value: master
+          value: seatech-cp4i
         - name: TITLE
           value: $(params.github-pr-title)
         - name: BODY

@@ -3,6 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ace-integration-server
 spec:
+  storageClassName: integration-storage
   accessModes:
     - ReadWriteMany
   resources:
