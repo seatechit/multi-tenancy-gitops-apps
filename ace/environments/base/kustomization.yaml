@@ -1,1 +1,2 @@
-resources: []
+resources:
+  - integrationServer/create-customer-details-rest.yaml
