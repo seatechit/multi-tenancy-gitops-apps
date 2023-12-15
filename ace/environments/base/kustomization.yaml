@@ -1,5 +1,5 @@
 resources:
-  - integrationServer/create-customer-details-rest.yaml
+  # - integrationServer/create-customer-details-rest.yaml
   - configurations/create_customer_serverconf_yaml.yaml
   - configurations/create_customer_policy.yaml
   - secrets/ibm-entitlement-key-secret.yaml
