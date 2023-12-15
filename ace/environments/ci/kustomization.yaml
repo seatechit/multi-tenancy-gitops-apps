@@ -63,3 +63,4 @@ resources:
 - tasks/resolve-props.yaml
 - triggerbindings/ace-integration-server.yaml
 - triggertemplates/ace-integration-server.yaml
+- certificates/prod-ref-ss-ca.yaml
