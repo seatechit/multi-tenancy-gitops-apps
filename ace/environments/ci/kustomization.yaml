@@ -64,4 +64,5 @@ resources:
 - triggerbindings/ace-integration-server.yaml
 - triggertemplates/ace-integration-server.yaml
 - certificates/prod-ref-ss-ca.yaml
+- certificates/prod-ref-devops.yaml
 - issuers/prod-ref-ss-ca.yaml
