@@ -3,6 +3,7 @@ resources:
 - pipelines/apic-publish-pipeline.yaml
 
 # IBM API Connect Production Task
+- tasks/apic-config-task.yaml
 - tasks/apic-publish-task.yaml
 
 # IBM API Connect Pipeline Role and Rolebinding
