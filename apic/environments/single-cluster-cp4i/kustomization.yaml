@@ -12,5 +12,6 @@ resources:
 
 # Secrets required for IBM API Connect Pipelines
 - secrets/apic-pipeline-git.yaml
-#- secrets/apic-pipeline-provider-org.yaml
+- secrets/apic-config-email-server.yaml
+- secrets/apic-pipeline-provider-org.yaml
 #- secrets/apic-pipeline-toolkit.yaml
