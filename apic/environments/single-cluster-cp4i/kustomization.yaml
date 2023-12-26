@@ -1,5 +1,6 @@
 resources:
 # IBM API Connect Production Pipelines
+- pipelines/apic-config-pipeline.yaml
 - pipelines/apic-publish-pipeline.yaml
 
 # IBM API Connect Production Task
