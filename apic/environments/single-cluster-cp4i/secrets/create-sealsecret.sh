@@ -1,7 +1,7 @@
 #################apic-pipeline-git##################################
 oc create secret generic apic-pipeline-git \
---from-literal=GIT_USERNAME=***** \
---from-literal=GIT_PRIV_TOKEN=***** \
+--from-literal=GIT_USERNAME=anhldpro \
+--from-literal=GIT_PRIV_TOKEN=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 \
 --dry-run=true -o yaml > delete-apic-pipeline-git.yaml \
 && \
 kubeseal -n ci --controller-name=sealed-secrets --controller-namespace=sealed-secrets -o yaml < delete-apic-pipeline-git.yaml > apic-pipeline-git.yaml \
