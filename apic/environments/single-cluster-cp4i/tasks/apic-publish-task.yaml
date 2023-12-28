@@ -69,8 +69,8 @@ spec:
           name: apic-pipeline-git
       - secretRef:
           name: apic-pipeline-provider-org
-      - secretRef:
-          name: apic-pipeline-toolkit
+      # - secretRef:
+      #     name: apic-pipeline-toolkit
     env:
       - name: CONFIG_FILES_DIR
         value: $(params.source-dir)/config
