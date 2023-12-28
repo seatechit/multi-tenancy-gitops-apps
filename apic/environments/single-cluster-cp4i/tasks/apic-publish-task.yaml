@@ -18,7 +18,7 @@ spec:
       description: GitHub url where the pipeline scripts are stored. These are the python scripts the pipeline will execute.
     - name: git-apic-pipeline-git-branch
       type: string
-      default: cp4i
+      default: master
       description: Github branch for the pipeline scripts.
     - name: git-apic-yaml-url
       type: string
@@ -82,6 +82,12 @@ spec:
         value: $(params.git-products-path)
       - name: GIT_APIS_PATH
         value: $(params.git-apis-path)
+      # Default realm for provider organization owner in the API Manager Local User Registry
+      - name: PROV_ORG_REALM
+        value: "provider/default-idp-2"
+      # Default out of the box catalog name for any new provider organization
+      - name: PROV_ORG_CATALOG_NAME
+        value: "sandbox"
   steps:
     - name: pipeline-config
       image: quay.io/ibmgaragecloud/alpine-git
