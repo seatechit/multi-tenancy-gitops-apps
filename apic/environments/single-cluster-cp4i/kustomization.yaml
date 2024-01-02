@@ -12,6 +12,9 @@ resources:
 - roles/role.yaml
 - roles/rolebinding.yaml
 
+# IBM Entitlement key
+- secrets/ibm-entitlement-key-secret.yaml
+
 # Secrets required for IBM API Connect Pipelines
 - secrets/apic-pipeline-git.yaml
 - secrets/apic-config-email-server.yaml
