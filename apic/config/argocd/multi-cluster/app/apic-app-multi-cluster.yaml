@@ -14,7 +14,7 @@ spec:
   source:
     path: apic/environments/multi-cluster/app
     repoURL: https://github.com/seatechit/multi-tenancy-gitops-apps.git
-    targetRevision: seatech-cp4i
+    targetRevision: seatech-cp4i-dr
   syncPolicy: {}
   ignoreDifferences:
   - group: apps

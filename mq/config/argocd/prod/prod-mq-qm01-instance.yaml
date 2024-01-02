@@ -14,5 +14,5 @@ spec:
   source:
     path: mq/environments/prod/mq-qm01/
     repoURL: https://github.com/seatechit/multi-tenancy-gitops-apps.git
-    targetRevision: seatech-cp4i
+    targetRevision: seatech-cp4i-dr
   syncPolicy: {}
