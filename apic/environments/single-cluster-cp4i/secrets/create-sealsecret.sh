@@ -22,7 +22,7 @@ rm delete-apic-config-email-server.yamlc
 
 #################apic-pipeline-provider-org##################################
 oc create secret generic apic-pipeline-provider-org \
---from-literal=PROV_ORG_OWNER_USERNAME=admin \
+--from-literal=PROV_ORG_OWNER_USERNAME=apicadmin \
 --from-literal=PROV_ORG_OWNER_PASSWORD=admin@123 \
 --from-literal=PROV_ORG_OWNER_EMAIL=anhld@seatechit.com.vn \
 --from-literal=PROV_ORG_OWNER_FIRST_NAME=anh \
